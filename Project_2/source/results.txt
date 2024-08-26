@@ -1,0 +1,517 @@
+er1:
+----------------n = 10^6----------------
+Printing results for monte_carlo_serial(1 threads): 
+Average runtime: 0.0205215
+-------------------------------------------
+Printing results for monte_carlo_mpi(2 threads): 
+Average runtime: 0.02389075
+-Speed up: 0.8589726149241862
+-Efficiency: 0.4294863074620931
+-------------------------------------------
+Printing results for monte_carlo_mpi(4 threads): 
+Average runtime: 0.017676
+-Speed up: 1.160980991174474
+-Efficiency: 0.2902452477936185
+-------------------------------------------
+Printing results for monte_carlo_mpi(8 threads): 
+Average runtime: 0.00814375
+-Speed up: 2.519907904834996
+-Efficiency: 0.3149884881043745
+-------------------------------------------
+Printing results for monte_carlo_mpi(16 threads): 
+Average runtime: 0.00550975
+-Speed up: 3.724579155134081
+-Efficiency: 0.23278619719588006
+-------------------------------------------
+
+----------------n = 10^7----------------
+Printing results for monte_carlo_serial(1 threads): 
+Average runtime: 0.20567875
+-------------------------------------------
+Printing results for monte_carlo_mpi(2 threads): 
+Average runtime: 0.111555
+-Speed up: 1.8437429967280712
+-Efficiency: 0.9218714983640356
+-------------------------------------------
+Printing results for monte_carlo_mpi(4 threads): 
+Average runtime: 0.06885575
+-Speed up: 2.987096212008438
+-Efficiency: 0.7467740530021095
+-------------------------------------------
+Printing results for monte_carlo_mpi(8 threads): 
+Average runtime: 0.04561225
+-Speed up: 4.509287526925332
+-Efficiency: 0.5636609408656665
+-------------------------------------------
+Printing results for monte_carlo_mpi(16 threads): 
+Average runtime: 0.030120499999999995
+-Speed up: 6.82853040288176
+-Efficiency: 0.42678315018011
+-------------------------------------------
+
+----------------n = 10^8----------------
+Printing results for monte_carlo_serial(1 threads): 
+Average runtime: 2.0537745000000003
+-------------------------------------------
+Printing results for monte_carlo_mpi(2 threads): 
+Average runtime: 1.013156
+-Speed up: 2.0271058948473883
+-Efficiency: 1.0135529474236942
+-------------------------------------------
+Printing results for monte_carlo_mpi(4 threads): 
+Average runtime: 0.5056015
+-Speed up: 4.062041944100245
+-Efficiency: 1.0155104860250612
+-------------------------------------------
+Printing results for monte_carlo_mpi(8 threads): 
+Average runtime: 0.28662775
+-Speed up: 7.165302382619966
+-Efficiency: 0.8956627978274958
+-------------------------------------------
+Printing results for monte_carlo_mpi(16 threads): 
+Average runtime: 0.15896325
+-Speed up: 12.919806936508913
+-Efficiency: 0.807487933531807
+-------------------------------------------
+
+
+er2:
+----------------n = 5000----------------
+Printing results for mat_vec_serial(1 threads): 
+Average runtime: 0.07717725
+-------------------------------------------
+Printing results for mat_vec_mpi(2 threads): 
+Average runtime: 0.0373505
+-Speed up: 2.0662976399244988
+-Efficiency: 1.0331488199622494
+-------------------------------------------
+Printing results for mat_vec_mpi(4 threads): 
+Average runtime: 0.0186335
+-Speed up: 4.141854724018569
+-Efficiency: 1.0354636810046423
+-------------------------------------------
+Printing results for mat_vec_mpi(8 threads): 
+Average runtime: 0.010350999999999999
+-Speed up: 7.456018742150518
+-Efficiency: 0.9320023427688148
+-------------------------------------------
+
+
+----------------n = 10000----------------
+Printing results for mat_vec_serial(1 threads): 
+Average runtime: 0.30867524999999996
+-------------------------------------------
+Printing results for mat_vec_mpi(2 threads): 
+Average runtime: 0.14973225
+-Speed up: 2.0615148039250055
+-Efficiency: 1.0307574019625028
+-------------------------------------------
+Printing results for mat_vec_mpi(4 threads): 
+Average runtime: 0.07430225
+-Speed up: 4.154319014565507
+-Efficiency: 1.0385797536413768
+-------------------------------------------
+Printing results for mat_vec_mpi(8 threads): 
+Average runtime: 0.039877499999999996
+-Speed up: 7.7405867970660145
+-Efficiency: 0.9675733496332518
+-------------------------------------------
+Printing results for mat_vec_mpi(16 threads): 
+Average runtime: 0.0272145
+-Speed up: 11.342308328280879
+-Efficiency: 0.7088942705175549
+-------------------------------------------
+
+----------------n = 20000----------------
+Printing results for mat_vec_serial(1 threads): 
+Average runtime: 1.23490575
+-------------------------------------------
+Printing results for mat_vec_mpi(2 threads): 
+Average runtime: 0.619383
+-Speed up: 1.9937675880674801
+-Efficiency: 0.9968837940337401
+-------------------------------------------
+Printing results for mat_vec_mpi(4 threads): 
+Average runtime: 0.29655624999999997
+-Speed up: 4.164153512192038
+-Efficiency: 1.0410383780480095
+-------------------------------------------
+Printing results for mat_vec_mpi(8 threads): 
+Average runtime: 0.15829625
+-Speed up: 7.801231867463696
+-Efficiency: 0.975153983432962
+-------------------------------------------
+Printing results for mat_vec_mpi(16 threads): 
+Average runtime: 0.07934825
+-Speed up: 15.563112608028534
+-Efficiency: 0.9726945380017834
+-------------------------------------------
+
+
+er3:
+
+---------------[loops: 1000000]---------------
+Printing results for counter_sequential(counter max: 1000000, option: 1, 1
+threads):
+Average runtime: 0.00259825
+---------------[file: counter_pthreads_locks]---------------
+---------------[option: 0]---------------
+Printing results for counter_pthreads_locks(counter max: 1000000, option:
+0, 1 threads):
+Average runtime: 0.018763250000000002
+-Speed up: 0.1384754773293539
+-Efficiency: 0.1384754773293539
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 1000000, option:
+0, 2 threads):
+Average runtime: 0.040473
+-Speed up: 0.06419711906703233
+-Efficiency: 0.03209855953351617
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 1000000, option:
+0, 4 threads):
+Average runtime: 0.030838499999999998
+-Speed up: 0.08425344942198874
+-Efficiency: 0.021063362355497186
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 1000000, option:
+0, 8 threads):
+Average runtime: 0.0356505
+-Speed up: 0.07288116576205102
+-Efficiency: 0.009110145720256377
+-------------------------------------------
+---------------[option: 1]---------------
+Printing results for counter_pthreads_locks(counter max: 1000000, option:
+1, 1 threads):
+Average runtime: 0.0029435
+-Speed up: 0.8827076609478511
+-Efficiency: 0.8827076609478511
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 1000000, option:
+1, 2 threads):
+Average runtime: 0.00743175
+-Speed up: 0.34961482827059576
+-Efficiency: 0.17480741413529788
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 1000000, option:
+1, 4 threads):
+Average runtime: 0.00174775
+-Speed up: 1.486625661564869
+-Efficiency: 0.37165641539121724
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 1000000, option:
+1, 8 threads):
+Average runtime: 0.00297375
+-Speed up: 0.8737284573350147
+-Efficiency: 0.10921605716687684
+-------------------------------------------
+---------------[file: counter_pthreads_atomics]---------------
+---------------[option: 0]---------------
+Printing results for counter_pthreads_atomics(counter max: 1000000,
+option: 0, 1 threads):
+Average runtime: 0.00862825
+-Speed up: 0.3011329064410512
+-Efficiency: 0.3011329064410512
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 1000000,
+option: 0, 2 threads):
+Average runtime: 0.011456250000000001
+-Speed up: 0.22679759956355697
+-Efficiency: 0.11339879978177848
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 1000000,
+option: 0, 4 threads):
+Average runtime: 0.01461775
+-Speed up: 0.17774623317542027
+-Efficiency: 0.044436558293855066
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 1000000,
+option: 0, 8 threads):
+Average runtime: 0.016346
+-Speed up: 0.15895326073657162
+-Efficiency: 0.019869157592071453
+-------------------------------------------
+---------------[option: 1]---------------
+Printing results for counter_pthreads_atomics(counter max: 1000000,
+option: 1, 1 threads):
+Average runtime: 0.0025525
+-Speed up: 1.0179236043095004
+-Efficiency: 1.0179236043095004
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 1000000,
+option: 1, 2 threads):
+Average runtime: 0.0018825
+-Speed up: 1.3802124833997342
+-Efficiency: 0.6901062416998671
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 1000000,
+option: 1, 4 threads):
+Average runtime: 0.00082125
+-Speed up: 3.163774733637747
+-Efficiency: 0.7909436834094368
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 1000000,
+option: 1, 8 threads):
+Average runtime: 0.0030924999999999998
+-Speed up: 0.8401778496362167
+-Efficiency: 0.10502223120452708
+-------------------------------------------
+---------------[loops: 10000000]---------------
+Printing results for counter_sequential(counter max: 10000000, option: 1,
+1 threads):
+Average runtime: 0.025831249999999997
+---------------[file: counter_pthreads_locks]---------------
+---------------[option: 0]---------------
+Printing results for counter_pthreads_locks(counter max: 10000000, option:
+0, 1 threads):
+Average runtime: 0.17105574999999998
+-Speed up: 0.15101070849708356
+-Efficiency: 0.15101070849708356
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 10000000, option:
+0, 2 threads):
+Average runtime: 0.46090800000000004
+-Speed up: 0.056044264799048824
+-Efficiency: 0.028022132399524412
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 10000000, option:
+0, 4 threads):
+Average runtime: 0.50070775
+-Speed up: 0.05158947509799878
+-Efficiency: 0.012897368774499695
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 10000000, option:
+0, 8 threads):
+Average runtime: 0.5839840000000001
+-Speed up: 0.04423280432340611
+-Efficiency: 0.0055291005404257635
+-------------------------------------------
+---------------[option: 1]---------------
+Printing results for counter_pthreads_locks(counter max: 10000000, option:
+1, 1 threads):
+Average runtime: 0.0235895
+-Speed up: 1.095031687827211
+-Efficiency: 1.095031687827211
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 10000000, option:
+1, 2 threads):
+Average runtime: 0.0124155
+-Speed up: 2.080564616809633
+-Efficiency: 1.0402823084048165
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 10000000, option:
+1, 4 threads):
+Average runtime: 0.00686775
+-Speed up: 3.7612391248953436
+-Efficiency: 0.9403097812238359
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 10000000, option:
+1, 8 threads):
+Average runtime: 0.0057655
+-Speed up: 4.480313936345503
+-Efficiency: 0.5600392420431879
+-------------------------------------------
+---------------[file: counter_pthreads_atomics]---------------
+---------------[option: 0]---------------
+Printing results for counter_pthreads_atomics(counter max: 10000000,
+option: 0, 1 threads):
+Average runtime: 0.07146975
+-Speed up: 0.36142913610303656
+-Efficiency: 0.36142913610303656
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 10000000,
+option: 0, 2 threads):
+Average runtime: 0.12902925
+-Speed up: 0.20019685458917255
+-Efficiency: 0.10009842729458628
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 10000000,
+option: 0, 4 threads):
+Average runtime: 0.1606255
+-Speed up: 0.1608166200260855
+-Efficiency: 0.04020415500652137
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 10000000,
+option: 0, 8 threads):
+Average runtime: 0.17304524999999998
+-Speed up: 0.14927453946294394
+-Efficiency: 0.018659317432867993
+-------------------------------------------
+---------------[option: 1]---------------
+Printing results for counter_pthreads_atomics(counter max: 10000000,
+option: 1, 1 threads):
+Average runtime: 0.023695749999999998
+-Speed up: 1.0901216462867813
+-Efficiency: 1.0901216462867813
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 10000000,
+option: 1, 2 threads):
+Average runtime: 0.012005250000000002
+-Speed up: 2.15166281418546
+-Efficiency: 1.07583140709273
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 10000000,
+option: 1, 4 threads):
+Average runtime: 0.006838749999999999
+-Speed up: 3.7771888137452017
+-Efficiency: 0.9442972034363004
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 10000000,
+option: 1, 8 threads):
+Average runtime: 0.0056977500000000006
+-Speed up: 4.533587819753411
+-Efficiency: 0.5666984774691763
+-------------------------------------------
+---------------[loops: 100000000]---------------
+Printing results for counter_sequential(counter max: 100000000, option: 1,
+1 threads):
+Average runtime: 0.25251475
+---------------[file: counter_pthreads_locks]---------------
+---------------[option: 0]---------------
+Printing results for counter_pthreads_locks(counter max: 100000000,
+option: 0, 1 threads):
+Average runtime: 1.73666775
+-Speed up: 0.14540187666869497
+-Efficiency: 0.14540187666869497
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 100000000,
+option: 0, 2 threads):
+Average runtime: 4.40819175
+-Speed up: 0.057283068505357096
+-Efficiency: 0.028641534252678548
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 100000000,
+option: 0, 4 threads):
+Average runtime: 5.1607605
+-Speed up: 0.04892975560481832
+-Efficiency: 0.01223243890120458
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 100000000,
+option: 0, 8 threads):
+Average runtime: 5.700043249999999
+-Speed up: 0.04430049719359586
+-Efficiency: 0.005537562149199483
+-------------------------------------------
+---------------[option: 1]---------------
+Printing results for counter_pthreads_locks(counter max: 100000000,
+option: 1, 1 threads):
+Average runtime: 0.224055
+-Speed up: 1.127021267099596
+-Efficiency: 1.127021267099596
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 100000000,
+option: 1, 2 threads):
+Average runtime: 0.11267300000000001
+-Speed up: 2.241129196879465
+-Efficiency: 1.1205645984397326
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 100000000,
+option: 1, 4 threads):
+Average runtime: 0.057263999999999995
+-Speed up: 4.409659646549316
+-Efficiency: 1.102414911637329
+-------------------------------------------
+Printing results for counter_pthreads_locks(counter max: 100000000,
+option: 1, 8 threads):
+Average runtime: 0.04847525
+-Speed up: 5.209147967261644
+-Efficiency: 0.6511434959077055
+-------------------------------------------
+---------------[file: counter_pthreads_atomics]---------------
+---------------[option: 0]---------------
+Printing results for counter_pthreads_atomics(counter max: 100000000,
+option: 0, 1 threads):
+Average runtime: 0.71772675
+-Speed up: 0.35182574705485065
+-Efficiency: 0.35182574705485065
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 100000000,
+option: 0, 2 threads):
+Average runtime: 1.298874
+-Speed up: 0.19441050479107289
+-Efficiency: 0.09720525239553644
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 100000000,
+option: 0, 4 threads):
+Average runtime: 1.64506975
+-Speed up: 0.15349789879730025
+-Efficiency: 0.03837447469932506
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 100000000,
+option: 0, 8 threads):
+Average runtime: 1.74912375
+-Speed up: 0.14436642919061615
+-Efficiency: 0.01804580364882702
+-------------------------------------------
+---------------[option: 1]---------------
+Printing results for counter_pthreads_atomics(counter max: 100000000,
+option: 1, 1 threads):
+Average runtime: 0.224988
+-Speed up: 1.1223476363183815
+-Efficiency: 1.1223476363183815
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 100000000,
+option: 1, 2 threads):
+Average runtime: 0.11328200000000001
+-Speed up: 2.2290809660846382
+-Efficiency: 1.1145404830423191
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 100000000,
+option: 1, 4 threads):
+Average runtime: 0.057950249999999995
+-Speed up: 4.3574402181181275
+-Efficiency: 1.0893600545295319
+-------------------------------------------
+Printing results for counter_pthreads_atomics(counter max: 100000000,
+option: 1, 8 threads):
+Average runtime: 0.0452325
+-Speed up: 5.582595478914497
+-Efficiency: 0.6978244348643121
+-------------------------------------------
+
+er4:
+
+---------------[(1024, 1024)]---------------
+Printing results for mat_mult_serial(threads per block: 1, blocks: 1 - (1024, 1024)):
+Average runtime: 7.22475
+-------------------------------------------
+Printing results for mat_mult(threads per block: 128, blocks: 1 - (1024, 1024)):
+Average runtime: 3.4522500000000003
+-Speed up: 2.0927655876602214
+-Efficiency: 0.01634973115359548
+-------------------------------------------
+Printing results for mat_mult(threads per block: 256, blocks: 1 - (1024, 1024)):
+Average runtime: 2.043
+-Speed up: 3.5363436123348015
+-Efficiency: 0.013813842235682819
+-------------------------------------------
+Printing results for mat_mult(threads per block: 512, blocks: 1 - (1024, 1024)):
+Average runtime: 2.017
+-Speed up: 3.5819286068418448
+-Efficiency: 0.006995954310237978
+-------------------------------------------
+Printing results for mat_mult(threads per block: 160, blocks: 6554 - (1024, 1024)):
+Average runtime: 2.53
+-Speed up: 2.855632411067194
+-Efficiency: 2.723177077993586e-06
+-------------------------------------------
+Printing results for mat_mult(threads per block: 6554, blocks: 160 - (1024, 1024)):
+Average runtime: 0.00025
+-Speed up: 28899.0
+-Efficiency: 0.027558552029295087
+-------------------------------------------
+Printing results for mat_mult(threads per block: 320, blocks: 3277 - (1024, 1024)):
+Average runtime: 1.92175
+-Speed up: 3.759464030180825
+-Efficiency: 3.585085472784583e-06
+-------------------------------------------
+Printing results for mat_mult(threads per block: 3277, blocks: 320 - (1024, 1024)):
+Average runtime: 0.0005
+-Speed up: 14449.5
+-Efficiency: 0.013779276014647544
+-------------------------------------------
+Printing results for mat_mult(threads per block: 1024, blocks: 1024 - (1024, 1024)):
+Average runtime: 2.02475
+-Speed up: 3.568218298555377
+-Efficiency: 3.402918146663072e-06
+-------------------------------------------
